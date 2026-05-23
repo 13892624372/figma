@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: '/figma/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
